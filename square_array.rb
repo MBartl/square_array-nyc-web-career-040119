@@ -1,4 +1,7 @@
 def square_array(array)
-  array.
-  array.collect! {|num| num ** 2}
+  number = 0
+  array.each do
+    array[number] ** 2
+    number += 1
+  end
 end
