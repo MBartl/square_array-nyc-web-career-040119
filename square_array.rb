@@ -5,3 +5,6 @@ def square_array(array)
     number += 1
   end
 end
+
+def square_array(array)
+  array.collect!
