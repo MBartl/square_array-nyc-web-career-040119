@@ -1,7 +1,7 @@
 def square_array(array)
   number = 0
   array.each do
-    array[number] ** 2
+    array[number] * array[number]
     number += 1
   end
 end
